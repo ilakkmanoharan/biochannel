@@ -3,8 +3,8 @@
 .env.*
 !.env.example
 
-# API keys / credentials
-private/api-key/
+# Local-only content (notebooks, marketing, specs, keys — keep out of remote)
+private/
 
 # Python
 __pycache__/
@@ -51,9 +51,6 @@ dmypy.json
 
 # Streamlit (local secrets only; commit config.toml if you use it)
 .streamlit/secrets.toml
-
-# Generated promo video (large; build with private/marketing/build_promo_video.py)
-private/marketing/videos/*.mp4
 
 # Editors / OS
 .idea/
