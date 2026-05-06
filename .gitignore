@@ -1,0 +1,65 @@
+# Secrets & local env (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+private/api-key/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+sdist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.nox/
+
+# Type checkers & linters
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit (local secrets only; commit config.toml if you use it)
+.streamlit/secrets.toml
+
+# Generated promo video (large; build with private/marketing/build_promo_video.py)
+private/marketing/videos/*.mp4
+
+# Editors / OS
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

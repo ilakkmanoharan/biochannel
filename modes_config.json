@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cell_decision_simulator",
+    "title": "Cell Decision Simulator",
+    "dataset": "gene_expression_rna_seq",
+    "category": "Simulation",
+    "status": "ready",
+    "description": "Simulate how cells respond to stress signals and noise; explore PCA landscape and decision probabilities."
+  },
+  {
+    "id": "information_loss_analyzer",
+    "title": "Information Loss Analyzer",
+    "dataset": "time_series_expression",
+    "category": "Information theory",
+    "status": "ready",
+    "description": "Measure how much stimulus information survives noisy transduction into pathway readouts."
+  },
+  {
+    "id": "drug_response_predictor",
+    "title": "Drug Response Predictor",
+    "dataset": "gdsc_style",
+    "category": "Therapeutics",
+    "status": "ready",
+    "description": "Explore dose–response, resistance risk, and survival vs apoptosis under treatment constraints."
+  },
+  {
+    "id": "explainable_cell_ai",
+    "title": "Explainable Cell AI",
+    "dataset": "classification_demo",
+    "category": "Interpretability",
+    "status": "ready",
+    "description": "Feature importance and Gemma-style Q&A over dataset-driven drivers and simulation context."
+  },
+  {
+    "id": "edge_biology_assistant",
+    "title": "Edge Biology Assistant",
+    "dataset": "small_expression",
+    "category": "Edge / education",
+    "status": "ready",
+    "description": "Lightweight PCA landscape and local-first explanations for low-resource or classroom demos."
+  }
+]
